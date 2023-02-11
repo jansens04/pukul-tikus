@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Pukul Tikus Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="logoS">
+            <h1>Whack-A-MOLE!</h1>
+            <p id="skor">0</p>
+        </div>
+        <div class="start">
+            <button onclick="start()">Start!</button>
+        </div>
+        <div class="game">
+            <div class="tanah">
+                <div class="tikus"></div>
+            </div>
+            <div class="tanah">
+                <div class="tikus"></div>
+            </div>
+            <div class="tanah">
+                <div class="tikus"></div>
+            </div>
+            <div class="tanah">
+                <div class="tikus"></div>
+            </div>
+            <div class="tanah">
+                <div class="tikus"></div>
+            </div>
+            <div class="tanah">
+                <div class="tikus"></div>
+            </div>
+        </div>
+    </div>
+
+    <audio src="aset/audio/audio_Pop.mp3" id="pop"></audio>
+
+    <script src="main.js"></script>
+    <!-- Sweet Alert2 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.1/sweetalert2.all.js"
+        integrity="sha512-RurNlBV74Iag8VNau1fWFMhv73YfMw8dwbwtaJQDoWwRoYT0qzlYvBsEWtpEV+gWRr4MwHlPpmOinUOLnaJH5A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
